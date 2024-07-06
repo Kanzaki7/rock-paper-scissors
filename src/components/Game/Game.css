@@ -1,0 +1,231 @@
+.gameDiv {
+    width: 90%;
+    height: 70%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.game {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid white; */
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.player {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    /* flex-wrap: wrap-reverse; */
+    gap: 30px;
+}
+
+
+.playerCoin1 {
+    width: 250px;
+    height: 250px;
+    /* border: 2px solid red; */
+    gap: 30px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    box-shadow: rgb(48, 35, 131) 0px 9px;
+    border: 30px solid hsl(230, 89%, 62%);
+    cursor: pointer;
+    border-radius: 50%;
+}
+.playerCoin2 {
+    width: 250px;
+    height: 250px;
+    /* border: 2px solid red; */
+    gap: 30px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    box-shadow: hsl(39, 67%, 31%) 0px 9px;
+    border: 30px solid hsl(39, 89%, 49%);
+    cursor: pointer;
+    border-radius: 50%;
+}
+.playerCoin3 {
+    width: 250px;
+    height: 250px;
+    /* border: 2px solid red; */
+    gap: 30px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    box-shadow: hsl(349, 60%, 31%) 0px 9px;
+    border: 30px solid hsl(349, 71%, 52%);
+    cursor: pointer;
+    border-radius: 50%;
+}
+.playerCoin1Win {
+    width: 250px;
+    height: 250px;
+    /* border: 2px solid red; */
+    gap: 30px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    box-shadow: rgb(48, 35, 131) 0px 9px;
+    box-shadow: 0 0 0px 33px rgba(245, 245, 245, 0.07),
+    0 0 6px 68px #62629E8A,
+    0 0 6px 100px #50508540;
+    border: 30px solid hsl(230, 89%, 62%);
+    cursor: pointer;
+    border-radius: 50%;
+}
+.playerCoin2Win {
+    width: 250px;
+    height: 250px;
+    /* border: 2px solid red; */
+    gap: 30px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    box-shadow: hsl(39, 67%, 31%) 0px 9px;
+    box-shadow: 0 0 0px 33px rgba(245, 245, 245, 0.07),
+    0 0 6px 68px #62629E8A,
+    0 0 6px 100px #50508540;
+    border: 30px solid hsl(39, 89%, 49%);
+    cursor: pointer;
+    border-radius: 50%;
+}
+.playerCoin3Win {
+    width: 250px;
+    height: 250px;
+    /* border: 2px solid red; */
+    gap: 30px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    box-shadow: hsl(349, 60%, 31%) 0px 9px;
+    box-shadow: 0 0 0px 33px rgba(245, 245, 245, 0.07),
+    0 0 6px 68px #62629E8A,
+    0 0 6px 100px #50508540;
+    border: 30px solid hsl(349, 71%, 52%);
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+.menuGame {
+    width: 30%;
+    height: 100%;
+    /* border: 3px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.computerCoin {
+    width: 30%;
+    height: 100%;
+    /* border: 2px solid yellow; */
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paper {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url('../../assets/img/icon-paper.svg');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: -50% -15%;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px 0px inset;
+}
+.scissors {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url('../../assets/img/icon-scissors.svg');
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 55% 55%;
+    /* border: 30px solid hsl(39, 89%, 49%);
+    cursor: pointer; */
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px 0px inset;
+}
+.rock {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+    background-image: url('../../assets/img/icon-rock.svg');
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 45% 55%;
+    /* border: 30px solid hsl(349, 71%, 52%);
+    cursor: pointer; */
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px 0px inset;
+}
+
+.playerText {
+    font-size: 20px;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-left: 75px;
+}
+
+.winText {
+    font-size: 55px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.playAgain {
+    background-color: white;
+    width: 250px;
+    height: 50px;
+    color: hsl(229, 25%, 31%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.rules {
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rulesModal {
+    width: 140px;
+    height: 80%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}

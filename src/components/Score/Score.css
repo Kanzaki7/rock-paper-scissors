@@ -1,0 +1,23 @@
+.divScore {
+    background-color: white;
+    width: 23%;
+    height: 80%;
+    border-radius: 10px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleScore {
+    color: hsl(229, 64%, 46%);
+    font-size: 20px;
+    margin: 0;
+}
+
+.scoreText {
+    color: hsl(229, 64%, 46%);
+    font-size: 50px;
+    margin: 0;
+}
